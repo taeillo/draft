@@ -479,6 +479,10 @@ a {
     background-color: #f6f6f8;
 }
 
+.place-order-sub {
+    width: 65%;
+}
+
 .place-order-sub-title{
     font-size: 24px;
     padding: 3em 0 1em 22.5%;
