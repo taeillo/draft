@@ -657,7 +657,7 @@ a {
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1026px){
+@media (min-width: 1024px) and (max-width: 1300px){
     .action-text{
         font-family: Georgia, 'Times New Roman', Times, serif;
         width: 70%;
