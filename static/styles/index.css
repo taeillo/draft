@@ -1039,7 +1039,7 @@ a {
     .company-title{
         font-weight: 800;
         margin-bottom: 1em;
-       
+       padding: 0 0;
     }
     
     .company-address{
