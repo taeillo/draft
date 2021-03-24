@@ -1,0 +1,32 @@
+{
+    "name": "",
+    "short_name": "Muuvas",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "icons": [
+      {
+          "src": "/static/img/",
+          "type": "image/jpg",
+          "sizes": "64x64"
+        }, 
+        {
+          "src": "/static/img/",
+          "type": "image/jpg",
+          "sizes": "96x96"
+        },
+        {
+          "src": "/static/img/",
+          "type": "image/jpg",
+          "sizes": "192x192"
+        },
+        {
+          "src": "/static/img/",
+          "type": "image/jpg",
+          "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "splash_pages":"/static/img/"
+  }
