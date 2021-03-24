@@ -1023,12 +1023,12 @@ a {
     }
     
     .contact-title {
-    font-size: large;
-    font-weight: 800;
-    margin: 0;
-    padding: 1.5em 4em 1em 40%;
-    text-align: center;
-    width: fit-content;
+        font-size: large;
+        font-weight: 800;
+        margin: 0;
+        padding: 1em 6em;
+        text-align: center;
+        width: auto;
 }
 
     .contact-description{
