@@ -1022,14 +1022,14 @@ a {
         
     }
     
-    .contact-title{
-        font-size: large;
-        font-weight: 800;
-        margin: 0;
-        padding: 2em 4em 0 4em;
-        text-align: center;
-        width: fit-content;
-    }
+    .contact-title {
+    font-size: large;
+    font-weight: 800;
+    margin: 0;
+    padding: 2em 4em 1em 40%;
+    text-align: center;
+    width: fit-content;
+}
 
     .contact-description{
         font-size: small;
