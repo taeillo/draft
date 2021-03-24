@@ -1,0 +1,73 @@
+{% extends 'base.html' %} 
+
+{% block head %} 
+    
+{% endblock %}
+ 
+{% block body %}
+ 
+    <!--div class="login-space"></div-->
+    <img class="slide1" src="{{ url_for('static', filename = 'img/image10.jpg')}}"  alt="image">
+    <div class="order-section1"><div class="order-section-title">DELIVERY AND EXTRA SERVICES TO SUIT EVERY NEED</div>
+    <div class="order-section-title2">Our wide range of 2-person home delivery and in-home services have everything your business needs to grow.</div>
+    </div>
+    <div class="order-section2">
+        <div class="ord-section">
+            <div class="order-description-title">LITE</div>
+            <div class="order-description">Bigger than a parcel but smaller than a standard 2-person delivery, our Lite delivery services suits items that are:</div>
+            <div class="order-description">
+                <ul class="ul-list">
+                    <li class="list">up to 1.9m in length</li>
+                    <li class="list">up to 31kg in weight</li>
+                    <li class="list">up to 0.3m³ in volume</li>
+                </ul>
+            </div>
+            <div class="order-description">Enhance your brand reputation by providing your customer with an exceptional delivery service that goes beyond delivery.</div>
+            <div class="order-description">View the full <a class="lite-link" href="/order/lite">Lite service proposition here.</a></div>
+
+        </div>
+        <div class="ord-section">
+            <div class="order-description-title">STANDARD</div>
+            <div class="order-description">Our 2-person standard delivery service really does set the standard - room of choice, unpack & position plus on top of our key features, a range of added-value services, such as:</div>
+            <div class="order-description">
+                <ul class="ul-list">
+                    <li class="list">Customer nominated day </li>
+                    <li class="list">Packaging removal & WEEE disposal/recycling</li>
+                    <li class="list">White goods connect and disconnect</li>
+                </ul>
+            </div>
+            <div class="order-description">View the full <a class="lite-link" href="/order/standard">Standard service proposition here.</a></div>
+        </div>
+    </div>
+    <div class="order-section2">
+        <div class="ord-section">
+            <div class="order-description-title">DEDICATED</div>
+            <div class="order-description">Our Dedicated service is designed around your requirements with your brand represented in your customers' homes.</div>
+            <div class="order-description">A completely tailored service which allows you to control how you want your dedicated service to look and feel.</div>
+            <div class="order-description">View the full <a class="lite-link" href="/order/dedicated">Dedicated service proposition here.</a></div>
+        </div>
+        <div class="ord-section">
+            <div class="order-description-title">PLATINUM</div>
+            <div class="order-description">Our Platinum service is ideal for retailers and manufacturers with high-value products who want an enhanced customer experience or have a level of complexity to their products.</div>
+            <div class="order-description">Platinum provides your customers with an added level of choice, convenience and certainty, as well as including extra value-added services, such as:</div>
+            <div class="order-description">
+                <ul class="ul-list">
+                    <li class="list">Diary booking service</li>
+                    <li class="list">Furniture & flat-pack assembly</li>
+                    <li class="list">Old mattress & upholstery collection and recycling</li>
+                </ul>
+            </div>
+            <div class="order-description">View the full <a class="lite-link" href="/order/platinum">Platinum service proposition here.</a></div>
+        </div>
+    </div>
+    <div class="place-order">
+        <div class="place-order-sub">
+            <div class="place-order-sub-title">Book Us Today</div>
+            <div class="place-order-sub-description">Click here to place an order for any of the services we provide, book us now and one of our team will be in contact with you shortly.</div>
+        </div>
+        <div class="place-btn">
+            <a href="https://forms.gle/MfdBB9QdC6VPQ1N19" class="place-order-btn">Place Order Now</a>
+        </div>
+    </div>
+
+{% endblock %}

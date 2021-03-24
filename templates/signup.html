@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block head %} 
+    
+{% endblock %}
+ 
+{% block body %}
+  
+    <div class="login-space"></div>
+    <div class="login-title">Sign Up</div>
+    <div class="login-form">
+        <form action="/register">
+            <label class="email-form">First Name</label><br>
+            <input type="text" id="firstname" name="firstname" class="email-form1" placeholder="" required>
+            <label class="email-form">Last Name</label><br>
+            <input type="text" id="lastname" name="lastname" class="email-form1" placeholder="" required>
+            <label class="email-form">Email address</label><br>
+            <input type="text" id="email" name="email" class="email-form1" placeholder="" required>
+            <div class="password-form"><label>Password</label> </div>
+            <input type="password" id="password" name="password" class="password-form1" placeholder="" required><br>
+            <button type="submit" class="btn-form">REGISTER</button>
+        </form>
+    </div>
+    
+
+{% endblock %}

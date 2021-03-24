@@ -1,0 +1,196 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+{% block html %}
+<head>
+  <meta charset="utf-8">
+  <meta name="theme-color">
+  <!--meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes"-->
+  <title> Muuvas </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename = 'styles/index.css')}}"/>
+  <!--link rel="icon" type="image/jpg" href="{{ url_for('static', filename = 'img/taeillo1.jpg')}}" --> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+  <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+  <meta name = "description" content = "We go the extra mile for you">
+  <meta name="keywords" content="Best, Fast, Delivery, Service, Logistics, Delivery Service, Reliable, Affordable">
+   
+  
+  
+  {% block head %}{% endblock head %}
+  
+</head>
+  <body>
+
+    <div class="desktop-header">
+        <div class="desktop-subheader">
+            <a href="/"><div class="logo-title">m<span class="orange">uu</span>vas</div></a>
+            <div><span class="call">Request a PickUp</span> <a href="/order"><span class="line">Book Us Now</span></div></a>
+        </div>
+        <div class="desktop-subheader2">
+            <ul>
+                <a href="/"><li>Home</li></a>
+                <a href="#service-section"><li>Services</li></a>
+                <a href="#about-section"><li>About</li></a>
+                <a href="#contact-section"><li>Contact</li></a>
+                <a href="/"><li>Track Order</li></a>
+            </ul>
+
+            <!--a href="/login"><div class="login">Log in</div></a-->
+        </div>
+        
+    </div>
+  
+  
+  
+
+  
+  <div class="mobile-header">
+        <a href="javascript:void(0)">
+          <div class="menu" onclick="openNav()">
+              <div class="l1"></div>
+              <div class="l2"></div>
+              <div class="l3"></div>
+          </div>
+        </a>
+        <a href="/"><div class="logo-title1">m<span class="orange">uu</span>vas</div></a>
+        <!--a href="/order"><img class="login-icon" src="{{ url_for('static', filename = 'img/book-account.svg')}}"  alt="image"></a-->
+ 
+          
+  </div>
+
+  <div id="overlay" onclick="closeNav()"  class="overlay">
+      <a href="/" onclick="closeNav()"><div class="overlay-sub"><img class="overlay-icon" src="{{ url_for('static', filename = 'img/home-24px.svg')}}"  alt="image"><div class="overlay-text">Home</div></div></a>
+      <a href="/order" onclick="closeNav()"><div class="overlay-sub"><img class="overlay-icon" src="{{ url_for('static', filename = 'img/book-account.svg')}}"  alt="image"><div class="overlay-text">Place Order</div></div></a>
+      <a href="/" onclick="closeNav()"><div class="overlay-sub"><img class="overlay-icon" src="{{ url_for('static', filename = 'img/delivery_dining-24px.svg')}}"  alt="image"><div class="overlay-text">Services</div></div></a>
+      <a href="/" onclick="closeNav()"><div class="overlay-sub"><img class="overlay-icon" src="{{ url_for('static', filename = 'img/information-outline.svg')}}"  alt="image"><div class="overlay-text">About</div></div></a>
+      <a href="#contact-section" onclick="closeNav()"><div class="overlay-sub"><img class="overlay-icon" src="{{ url_for('static', filename = 'img/phone.svg')}}"  alt="image"><div class="overlay-text">Contact</div></div></a>
+      <a href="/" onclick="closeNav()"><div class="overlay-sub"><img class="overlay-icon" src="{{ url_for('static', filename = 'img/room-24px.svg')}}"  alt="image"><div class="overlay-text">Track Order</div></div></a>
+      <a href="/" onclick="closeNav()"><div class="overlay-sub"><img class="overlay-icon" src="{{ url_for('static', filename = 'img/help-24px.svg')}}"  alt="image"><div class="overlay-text">Help</div></div></a>
+  </div>
+  
+ 
+
+    {% block body %}
+
+    {% endblock body %}
+
+    <footer id="contact-section" class="footer">
+
+      <div class="desktop-footer">
+         <div class="contact-details">
+            <div class="contact-title">
+              Contact Us
+            </div>
+            <div class="company-title">
+              Muuvas Logistics
+            </div>
+            <div class="company-address">
+              4b Oyeleke Street Off Kudirat Abiola Way, Ikeja.
+            </div>
+            <div class="tel">
+              Tel: +2349036576479
+            </div>
+            <div class="email">
+              Email: info@muuvas.com
+            </div>
+            <div class="social">
+              <a href="/"><img class="social-image" src="{{ url_for('static', filename = 'img/facebook.png')}}"  alt="image"></a>
+              <a href="/"><img class="social-image" src="{{ url_for('static', filename = 'img/twitter (1).svg')}}"  alt="image"></a>
+              <a href="/"><img class="social-image" src="{{ url_for('static', filename = 'img/instagram.png')}}"  alt="image"></a>
+              <a href="/"><img class="social-image" src="{{ url_for('static', filename = 'img/whatsapp.png')}}"  alt="image"></a>
+            </div>
+            <div class="all-rights">
+              COPYRIGHT © 2021 TAEILLO.
+            </div>
+            <a href="/terms"><div class="terms">
+              <span class="orange">Terms of Use</span> and <span class="orange">Privacy Policy</span>
+            </div></a>
+
+          </div>
+          <div class="form-section">
+              <form action="/contact" class="contact-form">
+                <input type="text" class="contact-form1" placeholder="Name">
+                <input type="text" class="contact-form1" placeholder="Email">
+                <input type="text" class="contact-form1" placeholder="Subject">
+                <textarea type="text" class="contact-form2" placeholder="Write your enquires now and one of our team will be in contact."></textarea><br>
+                <button type="submit" class="contact-btn">Send Message</button>
+              </form>
+          </div>
+      </div>
+  
+    
+  
+      <div class="mobile-footer">
+        <div class="contact-title">
+          Contact Us
+        </div>
+        <div class="contact-description">
+          Give us a call at +2349036576479 or, leave a message if you have any questions, enquires or complaints. 
+
+        </div>
+        <div class="form-section">
+          <form action="/contact" class="contact-form">
+            <input type="text" class="contact-form1" placeholder="Name">
+            <input type="text" class="contact-form1" placeholder="Email">
+            <input type="text" class="contact-form1" placeholder="Subject">
+            <textarea type="text" class="contact-form2" placeholder="Write your enquires now and one of our team will be in contact."></textarea><br>
+            <button type="submit" class="contact-btn">Send Message</button>
+          </form>
+        </div>
+
+        <div class="contact-details"> 
+          
+          <div class="company-title">
+            Muuvas Logistics
+          </div>
+          <div class="company-address">
+            4b Oyeleke Street Off Kudirat Abiola Way, Ikeja.
+          </div>
+          <div class="tel">
+            Tel: +2349036576479
+          </div>
+          <div class="email">
+            Email: info@muuvas.com
+          </div>
+          <div class="social">
+            <a href="/"><img class="social-image" src="{{ url_for('static', filename = 'img/facebook.png')}}"  alt="image"></a>
+            <a href="/"><img class="social-image" src="{{ url_for('static', filename = 'img/twitter (1).svg')}}"  alt="image"></a>
+            <a href="/"><img class="social-image" src="{{ url_for('static', filename = 'img/instagram.png')}}"  alt="image"></a>
+            <a href="/"><img class="social-image" src="{{ url_for('static', filename = 'img/whatsapp.png')}}"  alt="image"></a>
+          </div>
+          <div class="all-rights">
+            COPYRIGHT © 2021 TAEILLO.
+          </div>
+          <a href="/terms"><div class="terms">
+            <span class="orange">Terms of Use</span> and <span class="orange">Privacy Policy</span>
+          </div></a>
+
+        </div>
+      </div>
+  
+    </footer>  
+  
+    
+    
+    <script type="text/javascript">
+      if ("serviceWorker" in navigator) {
+          window.addEventListener("load", () => {
+          navigator.serviceWorker
+              .register("static/javascript/sw.js")
+              .then((registration) => {
+                console.log(`Yay! ServiceWorker is loaded `)
+              })
+              .catch((err) => {
+                console.log(`Boo! ServiceWorker didn't load: ${err}`);
+              });
+          });
+      }
+    </script>
+    <script rel="javascript" type= "text/javascript" src="{{ url_for('static', filename = 'javascript/index.js')}}"></script>
+    
+    
+    
+  </body>
+{% endblock html %}
+</html>

@@ -1,0 +1,156 @@
+{% extends 'base.html' %} 
+
+{% block head %} 
+    
+{% endblock %}
+ 
+{% block body %}
+ 
+
+
+    <img class="slide" src="{{ url_for('static', filename = 'img/image9.jpg')}}"  alt="image">
+    <!--div class="action-text"><div class="action-text1"> We Go the <br> Extra Mile For You <br></div> <a href="/order"><div class="call-action-btn">Book Us Now</div></a></div-->
+    
+
+<div id="service-section" class="service-section desktop-service">
+    <div class="service-title-head">Why Choose Us?</div>
+    <div class="service-description-head">Find reasons to choose us as your logistics patner</div>
+    <div class="services">
+        
+            <div class="sub-service-section">
+                <img class="service-icon" src="{{ url_for('static', filename = 'img/archive-lock-outline.svg')}}"  alt="image">
+                <div class="sub-service-section-description">
+                    <div class="service-title">
+                        Secure Dispatch
+                    </div>
+                    <div class="service-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo molestias quod at officia enim veniam, eaque placeat inventore cupiditate. Repellendus eos nesciunt quibusdam quod eligendi. Similique neque natus impedit.
+                    </div>
+                </div>
+            </div>
+            
+
+        
+            <div class="sub-service-section">
+                <img class="service-icon" src="{{ url_for('static', filename = 'img/truck-fast-outline.svg')}}"  alt="image">
+                <div class="sub-service-section-description">
+                    <div class="service-title">
+                        Timely Delivery
+                    </div>
+                    <div class="service-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo molestias quod at officia enim veniam, eaque placeat inventore cupiditate. Repellendus eos nesciunt quibusdam quod eligendi. Similique neque natus impedit.
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+
+    <div class="services">
+        
+        <div class="sub-service-section">
+            <img class="service-icon" src="{{ url_for('static', filename = 'img/archive-marker-outline.svg')}}"  alt="image">
+            <div class="sub-service-section-description">
+                <div class="service-title">
+                    Tracked Deliveries
+                </div>
+                <div class="service-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo molestias quod at officia enim veniam, eaque placeat inventore cupiditate. Repellendus eos nesciunt quibusdam quod eligendi. Similique neque natus impedit.
+                </div>
+            </div>
+        </div>
+        
+
+    
+        <div class="sub-service-section">
+            <img class="service-icon" src="{{ url_for('static', filename = 'img/truck-fast-outline.svg')}}"  alt="image">
+            <div class="sub-service-section-description">
+                <div class="service-title">
+                    Timely Delivery
+                </div>
+                <div class="service-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo molestias quod at officia enim veniam, eaque placeat inventore cupiditate. Repellendus eos nesciunt quibusdam quod eligendi. Similique neque natus impedit.
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="mobile">
+<div class="service-title-head ">Why Choose Us?</div>
+<div class="service-description-head ">Find reasons to choose us as your logistics patner</div>  
+</div> 
+
+<div id="service-section1" class="service-section1 mobile-service">
+    
+
+    <div class="services1">
+        <div class="sub-services1">
+            <div >
+                <img class="service-icon1" src="{{ url_for('static', filename = 'img/archive-lock-outline.svg')}}"  alt="image">
+            </div>
+            <div class="service-title1">
+                Secure Dispatch
+            </div>
+            <div class="service-description1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo molestias quod at officia enim veniam, eaque placeat inventore cupiditate. Repellendus eos nesciunt quibusdam quod eligendi. Similique neque natus impedit.
+            </div>
+
+        </div>
+        <div class="sub-services1">
+            <div >
+                <img class="service-icon1" src="{{ url_for('static', filename = 'img/truck-fast-outline.svg')}}"  alt="image">
+            </div>
+            <div class="service-title1">
+                Timely Delivery
+            </div>
+            <div class="service-description1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo molestias quod at officia enim veniam, eaque placeat inventore cupiditate. Repellendus eos nesciunt quibusdam quod eligendi. Similique neque natus impedit.
+            </div>
+        </div>
+        <div class="sub-services1">
+            <div >
+                <img class="service-icon1" src="{{ url_for('static', filename = 'img/archive-marker-outline.svg')}}"  alt="image">
+            </div>
+            <div class="service-title1">
+                Tracked Deliveries
+            </div>
+            <div class="service-description1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo molestias quod at officia enim veniam, eaque placeat inventore cupiditate. Repellendus eos nesciunt quibusdam quod eligendi. Similique neque natus impedit.
+            </div>
+        </div>
+    </div>
+
+    <a href="/services"><div class="service-btn">See All</div></a>
+
+</div>
+
+
+<div id="about-section" class="about-section">
+    <img class="about-image" src="{{ url_for('static', filename = 'img/image8.jpg')}}"  alt="image">
+    <div class="about">
+        <div class="about-title">
+            About Muuvas Logistics
+        </div>
+        <div class="about-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit rerum quis voluptate iusto deserunt, quia dicta, sed ut excepturi tempore impedit, sapiente exercitationem pariatur blanditiis aperiam eos enim numquam temporibus!<br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam magnam blanditiis, rem laborum voluptas atque adipisci! Asperiores id perspiciatis ducimus eligendi fugit quaerat accusamus perferendis? Harum, consequatur? Placeat, earum dolore.
+        </div>
+        <a href="/about"><div class="about-btn">
+            Learn More
+        </div></a>
+    </div>
+</div>
+
+<div class="testimonial-section">
+    <div class="horizontal-line"></div>
+    <div class="testimonial-title">Testimonial</div>
+    <div id="testimonial-description" class="testimonial-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta facere aspernatur, accusantium non architecto molestiae voluptates odio delectus, voluptatem earum sapiente quaerat, debitis alias consectetur natus soluta nisi nobis tenetur!</div>
+    <div id="testimonial-author" class="testimonial-author">Fitzpatrique</div>
+    <div class="horizontal-line"></div>
+</div>
+
+
+
+
+{% endblock %}
