@@ -448,7 +448,7 @@ a {
 .order-section2{
     display: flex;
     padding: 6em;
-    /*justify-content: space-between;*/
+    
     width: 70%;
     margin: 0 0 0 12%;
     line-height: 1.5;
@@ -524,7 +524,7 @@ a {
     
     color: #9ea7ff;
 }
-/*
+
 @media (min-width: 767px) and (max-width: 1023px){
 
     .login-space{
@@ -1233,4 +1233,3 @@ a {
     }
     
 }
-*/
