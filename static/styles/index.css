@@ -1171,17 +1171,18 @@ a {
     
     .place-order-sub-title{
         font-size: 24px;
-        padding: 3em 0 1em 0;
+        padding: 3em 0 1em 35%;
         margin: 0;
-        text-align: center;
+       /* text-align: center; */
     }
     
-    .place-order-sub-description{
-        padding: 0 0 3em 5%;
-        font-size: 18px;
-        line-height: 1.5;
-        width: 90%;
-    }
+    .place-order-sub-description {
+    padding: 0 0 3em 35%;
+    font-size: 18px;
+    line-height: 1.5;
+    width: 90%;
+    /* text-align: center; */
+}
     
     .place-btn{
         margin: 0 10% 0 25%;
