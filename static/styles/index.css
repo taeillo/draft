@@ -524,11 +524,8 @@ a {
     
     color: #9ea7ff;
 }
-
+/*
 @media (min-width: 767px) and (max-width: 1023px){
-    /*.desktop-header{
-        display: none;
-    }*/
 
     .login-space{
         width: 10vw;
@@ -609,7 +606,7 @@ a {
     .order-section2{
         display: flex;
         padding: 6em;
-        /*justify-content: space-between;*/
+       
         width: 72%;
         margin: 0 0 0 6%;
         line-height: 1.5;
@@ -715,7 +712,7 @@ a {
     .order-section2{
         display: flex;
         padding: 6em;
-        /*justify-content: space-between;*/
+    
         width: 70%;
         margin: 0 0 0 10%;
         line-height: 1.5;
@@ -737,7 +734,7 @@ a {
         margin: 0;
         padding: 0;
         width: 100vw;
-        /*justify-content: space-between;*/
+        
         background-color: #f6f6f8;
     }
 
@@ -1147,7 +1144,7 @@ a {
     .order-section2 {
         display: block;
         padding: 1.5em 1.5em;
-        /* justify-content: space-between; */
+        
         width: 76%;
         margin: 1em 0 0 0;
        
@@ -1175,7 +1172,7 @@ a {
         font-size: 24px;
         padding: 3em 0 1em 35%;
         margin: 0;
-       /* text-align: center; */
+      
     }
     
     .place-order-sub-description {
@@ -1183,7 +1180,7 @@ a {
     font-size: 18px;
     line-height: 1.5;
     width: 90%;
-    /* text-align: center; */
+
 }
     
     .place-btn{
@@ -1236,3 +1233,4 @@ a {
     }
     
 }
+*/
