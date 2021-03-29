@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "muuvasdb",
+  "private_key_id": "86108fa5c020acdca5bd172b8f7ddf1913221ef9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQCvvURkryjhVHLI\ns6cWxJZgXgAUxvHDe9ePizLSM5votjR4q5Shf8TlIS3v5KIZHGgNopZ20N9fDJmf\n3hdB7g4PlNzpWClc4FclecgoDIv0e2dwewVlRZIYdBiKHB5JwEy99xgC9IkRtGKY\nYsjSqC7Fx0ndwHIOUvYHChfDTsEjAbWI8P42NHqCuB4rj0Bw6J6niBtNk8GWtD7D\nYAuATupQJnqtFY0gMe/Dtzk6acW37lwyuI+fToGL8irt7c4UicqkMlgOZg0vEimV\n1eakUgDW2HLa28o64bIuAJE9zfuI7cbKOwuvOXpRIbyal3K1QIhT57xf43sYJjTb\nSiGMS/CpAgMBAAECgf8RE3Lx1ZNDUdFVbx9tNuzlsDyRyEL1m7L2X7AwfJNJqWqv\nzvxCNQgMu4ybIrwddIUnzgSQxvrtYWwL/KiF33u+R9ivU8GxJJtTKOIqAg4XU2ZZ\np5p+nKP1fFJmGRVYVTcfvkK3BsvKzJxH8lFRJsZksVicE3cBrU36oSBt+dkKbZaj\nvNYZcsQsQEDd+ZiJgylbupMXpmMx0qjncnaUz0XepLuA/X4IR7VW0HRXvt+cZyyt\nPCWwTlnr1r/yOSwzyFrn5AwW9bym/B6zN3f5b2XwnipyWPxFm9/7SYW2CtEWK4gN\nW3vYBumVQMTR2ReMzIST26tvPoDQdDqSBcLfnJECgYEA640pi6TDaAucrpR4CJTX\nRa3/x8GZbSU1Ac8Qtuq3m4ilKDQpt8Peki8I4IiqSlvaZSDACpNHJzx3CMmH+CWU\n/zdpsIqAADbClex6zLOcj63riNT4sblkKcCTbIYMO8wFmXKxPn4Y23zHAMp6QQI/\nmum00xr5/8VNQNxJIXrmttECgYEAvv7a/eS0D+6RQqLkJHAuLUfYxpfRXwxG2Nl7\nJfr73QOKj/20jl/0Q+laR6Qcc9S61hbDA+cz930fUqp2n2HooFHPkdi6z1peyRM9\nEEF1JUJ9MWY7RZZjlFxSFpWlKS+JDXeOk832GnssqQ3yXTN7ufFDqcuWgSeMnER1\nOb3MwlkCgYBW/HhdM2leIPuplPaG5MBi4RDWKe6I2farRlZ71k4bx+iF4k2NqW2m\nOmxiztVkRGtwcRm6Tg02tiOXQSVPREGzxjjnkx4V9iMBzqTCt4mXnbiffVah+z68\nFHvc1dvqsTtYIXzHATYYyAmNhziCjVwDz06RryKni6styqvPC13sIQKBgQCv4cNK\nsRQ746Zy5cwP3ho36oSuhNnynDyVrtif5huPsJYl+S0POz+WVkqj1HW7GPgg9H8L\nlhqd2uRAXOe16BSvpgbuuNV24zKMGiJOWOkGsc7V8d29PDthQQ766z1XywV7mFB8\nvdrXEfzThRteRm22kn2L3AYx03jB4qzMyoLHqQKBgAaZu2xyhsI8qrSStjDh1kMR\nIps90SNXu5vCi69cyPxy/pw9XlmvsNMPBKFlPdU9h5/4irQIM0IHfKc72gv36S0O\nK3itrf6kVPoyJkHfM75NLbTZaQR0t0fy2c6MLg+K7qmq0zREoJfiQ2Ad9EtoXRYP\ngMGgMja3K0BDGIQ2VzTe\n-----END PRIVATE KEY-----\n",
+  "client_email": "muuvas@muuvasdb.iam.gserviceaccount.com",
+  "client_id": "107851618457102582173",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/muuvas%40muuvasdb.iam.gserviceaccount.com"
+}

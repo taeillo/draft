@@ -1,4 +1,35 @@
 from flask import Flask, request, redirect, jsonify, render_template 
+from googleapiclient.discovery import build
+from google.oauth2.credentials import Credentials
+
+from google.oauth2 import service_account
+
+SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
+SERVICE_ACCOUNT_FILE = 'keys.json'
+
+creds = None
+creds = service_account.Credentials.from_service_account_file(
+        SERVICE_ACCOUNT_FILE, scopes=SCOPES)
+
+# If modifying these scopes, delete the file token.json.
+
+
+# The ID and range of a sample spreadsheet.
+SAMPLE_SPREADSHEET_ID = '1HQevvoML_FZVEHkwgD66Gyw836lgjR93v_zI632P070'
+
+
+
+
+service = build('sheets', 'v4', credentials=creds)
+
+# Call the Sheets API
+sheet = service.spreadsheets()
+result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
+                            range="Form Responses 1!A1").execute()
+values = result.get('values', [])
+
+print(values)
+
 
 username = None
 password = None

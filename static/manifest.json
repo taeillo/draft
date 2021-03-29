@@ -1,26 +1,26 @@
 {
     "name": "",
     "short_name": "Muuvas",
-    "theme_color": "#ffffff",
+    "theme_color": "#292929",
     "background_color": "#ffffff",
     "icons": [
       {
-          "src": "/static/img/",
+          "src": "/static/img/muuvas_logo.png",
           "type": "image/jpg",
           "sizes": "64x64"
         }, 
         {
-          "src": "/static/img/",
+          "src": "/static/img/muuvas_logo.png",
           "type": "image/jpg",
           "sizes": "96x96"
         },
         {
-          "src": "/static/img/",
+          "src": "/static/img/muuvas_logo.png",
           "type": "image/jpg",
           "sizes": "192x192"
         },
         {
-          "src": "/static/img/",
+          "src": "/static/img/muuvas_logo.png",
           "type": "image/jpg",
           "sizes": "512x512"
         }
@@ -28,5 +28,5 @@
     "start_url": "/",
     "display": "standalone",
     "orientation": "portrait",
-    "splash_pages":"/static/img/"
+    "splash_pages":"/static/img/muuvas_ss.png"
   }
