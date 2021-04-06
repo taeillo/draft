@@ -1,4 +1,5 @@
 from flask import Flask, request, redirect, jsonify, render_template 
+'''
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
 
@@ -7,6 +8,8 @@ SERVICE_ACCOUNT_FILE = 'keys.json'
 
 username = None
 password = None
+
+'''
 
 app = Flask(__name__) 
 
@@ -35,7 +38,7 @@ def offline():
 def manifest():
     return app.send_static_file('manifest.json')
 
-
+'''
 
 creds = service_account.Credentials.from_service_account_file(
         SERVICE_ACCOUNT_FILE, scopes=SCOPES)
@@ -65,7 +68,7 @@ updated_result = sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, rang
 
 print('{0} cells updated.'.format(updated_result.get('updatedCells')))
 
-
+'''
 
 
 
